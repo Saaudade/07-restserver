@@ -12,6 +12,8 @@ const { usuariosGet,
 
 const router = new Router();
 
+//Rutas
+
 router.get('/', usuariosGet);
 
 router.put('/:id', [
